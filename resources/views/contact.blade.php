@@ -81,19 +81,23 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Welcome To Laravel
+                    Passing Database
                 </div>
+            <p>{{ $type }} - {{ $topping }} - {{ $price }}</p>
 
-                <div class="links">
-                    <a href="/home">Home</a>
-                    <a href="/cart">Cart</a>
-                    <a href="/search">Search</a>
-                    <a href="/insert">Insert</a>
-                    <br />
-                    <br />
-                    <a href="api/showData/1">Show Data</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+            @if($price > 20000)
+                <p>this pizza is Expensive</p>
+            @elseif($price < 20000)
+                <p>this pizze is chip</p>
+            @else
+                <p>This pizza is normaly price</p>
+            @endif
+
+            @php
+                $name = 'Rayhan';
+                echo($name);
+            @endphp
+            
             </div>
         </div>
     </body>
