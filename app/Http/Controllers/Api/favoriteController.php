@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\favorite;
+use App\Models\favorite;
 
 class favoriteController extends Controller
 {

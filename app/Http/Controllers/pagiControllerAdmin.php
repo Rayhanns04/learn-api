@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\breakfast;
+use App\Models\breakfast;
 
 class pagiControllerAdmin extends Controller
 {

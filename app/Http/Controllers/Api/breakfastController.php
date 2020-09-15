@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\breakfast;
+use App\Models\breakfast;
 
 class breakfastController extends Controller
 {
