@@ -12,8 +12,8 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-  <link rel="stylesheet" href="{{ asset('assets/css/style.css')}}">
-    <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}" />
+  <link rel="stylesheet" href="{{ secure_asset('assets/css/style.css')}}">
+    <link rel="stylesheet" href="{{ secure_asset('assets/css/responsive.css') }}" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
@@ -264,7 +264,7 @@
 
     @include('layouts.footer')
     
-    <script src="{{asset('assets/js/data-source.js')}}" type="module"></script>
+    <script src="{{secure_asset('assets/js/data-source.js')}}" type="module"></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
